@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    title: 'Payment Reconciliation App',
+    title: 'AI-Payment Reconciliation App',
     subtitle: 'FinTech · Full-Stack',
     description: 'A full-stack payment reconciliation platform with a Python/FastAPI backend and React frontend. Automates the matching and discrepancy detection of financial transactions, enabling finance teams to reconcile payments at scale with real-time dashboards.',
     tech: ['Python', 'FastAPI', 'React', 'JavaScript', 'PostgreSQL'],
@@ -25,22 +25,10 @@ const projects = [
     badgeColor: '#c9a227',
     featured: true,
   },
+
   {
     id: 3,
-    title: 'Modern ATS',
-    subtitle: 'AI Recruitment Platform',
-    description: 'Production-grade Applicant Tracking System that eliminates manual resume screening. Features hybrid PDF extraction, Gemini 2.5 Flash scoring via a 100-point rubric, Pinecone vector search, two-tier Redis caching, and Gmail/Calendar MCP integrations.',
-    tech: ['Python', 'FastAPI', 'Gemini', 'Pinecone', 'PostgreSQL', 'Redis', 'MCP', 'React'],
-    github: 'https://github.com/AmolMagar2000/ATS',
-    live: null,
-    image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=340&fit=crop&auto=format',
-    badge: '⚡ RAG + MCP',
-    badgeColor: '#5ea7d6',
-    featured: true,
-  },
-  {
-    id: 4,
-    title: 'QE Test Automation Suite',
+    title: 'AI-QE Test Automation Suite',
     subtitle: 'AI-Powered QA Tool',
     description: 'AI-powered test case generator and Selenium automation code generator. Upload requirements or user stories and get comprehensive test cases with production-ready Java/TestNG Selenium code, Excel export, and a Streamlit UI.',
     tech: ['Python', 'Streamlit', 'Gemini 2.0 Flash', 'Selenium', 'Java', 'TestNG'],
@@ -52,8 +40,8 @@ const projects = [
     featured: false,
   },
   {
-    id: 5,
-    title: 'Candidate Assessment Platform',
+    id: 4,
+    title: 'AI-Candidate Assessment Platform',
     subtitle: 'Technical Assessment · Agentic',
     description: 'Comprehensive full-stack platform for conducting technical assessments with MCQ and live coding questions. Powered by Mistral LLM for AI-generated question banks, sandboxed Python/Java code execution, and real-time scoring.',
     tech: ['FastAPI', 'Python', 'Streamlit', 'Mistral AI', 'SQLAlchemy', 'SQLite'],
@@ -65,7 +53,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 6,
+    id: 5,
     title: 'TrendEra E-Commerce',
     subtitle: 'Full-Stack · MERN',
     description: 'A feature-rich e-commerce web application built with the MERN stack. Includes product catalog, cart management, user authentication, order processing, and an admin panel for inventory management.',
@@ -78,7 +66,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 7,
+    id: 6,
     title: 'AniHome',
     subtitle: 'React + Spring Boot',
     description: 'A full-stack anime streaming and home management web application combining a React.js frontend with a Spring Boot backend. Features user authentication, content browsing, and a responsive modern UI.',
